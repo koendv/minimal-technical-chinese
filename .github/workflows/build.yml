@@ -1,0 +1,68 @@
+name: new release
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  build:
+    name: build decks
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: install dependencies
+        run: sudo apt-get install -y build-essential
+      - name: build flashcards
+        run: make
+      - name: upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: decks
+          path: decks.zip
+          retention-days: 1
+
+  release:
+    name: release decks
+    runs-on: ubuntu-22.04
+    needs: build
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: decks
+          path: artifacts
+
+      - name: display contents
+        run: |
+          echo "package contents:"
+          unzip -l artifacts/decks.zip
+
+      - name: delete previous release
+        run: |
+          if gh release view current >/dev/null 2>&1; then
+              gh release delete current --yes --cleanup-tag
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: create gitHub release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "artifacts/decks.zip"
+          body: |
+            minimal technical chinese
+            
+            includes:
+            - flashcards for Pleco
+            - flashcards for Anki
+            - LICENSE (CC0 1.0 Public Domain)
+            
+          tag: current
+          token: ${{ secrets.GITHUB_TOKEN }}
+          allowUpdates: true
+          makeLatest: true

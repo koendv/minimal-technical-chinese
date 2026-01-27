@@ -1,0 +1,67 @@
+# cards_source_v1.txt
+# category | hanzi | pinyin | function | note
+# Single source of truth for the Technical Chinese Datasheet Reading Deck (v1)
+
+Conditions & Scope | 如果 | rúguǒ | conditional prerequisite | logical if, not temporal
+Conditions & Scope | 当 | dāng | condition in effect | often state-based
+Conditions & Scope | 仅当 | jǐn dāng | only if | strict scope limitation
+Conditions & Scope | 在…时 | zài … shí | during / while | operational context
+Conditions & Scope | 对于 | duìyú | with respect to | limits applicability
+Conditions & Scope | 仅在 | jǐn zài | only in | hard scope restriction
+Conditions & Scope | 在…情况下 | zài … qíngkuàng xià | under circumstances | scenario framing
+
+Mandatory / Prohibited / Optional | 必须 | bìxū | mandatory requirement | violation invalidates behavior
+Mandatory / Prohibited / Optional | 不得 | bùdé | explicitly forbidden | stronger than 不可以
+Mandatory / Prohibited / Optional | 可以 | kěyǐ | permitted | no guarantee implied
+Mandatory / Prohibited / Optional | 不需要 | bú xūyào | not required | optional step
+Mandatory / Prohibited / Optional | 建议 | jiànyì | recommendation | non-binding
+Mandatory / Prohibited / Optional | 应当 | yīngdāng | should | normative but weaker than 必须
+
+Limits & Thresholds | 最大 | zuìdà | maximum limit | hard upper bound
+Limits & Thresholds | 最小 | zuìxiǎo | minimum limit | hard lower bound
+Limits & Thresholds | 不超过 | bú chāoguò | must not exceed | constraint language
+Limits & Thresholds | 不小于 | bù xiǎoyú | must not be less than | lower bound constraint
+Limits & Thresholds | 不高于 | bù gāo yú | must not be more than | upper bound constraint
+Limits & Thresholds | 范围 | fànwéi | range | inclusive unless stated otherwise
+
+Defaults & Initialization | 默认 | mòrèn | default value or state | applies at reset
+Defaults & Initialization | 上电后 | shàngdiàn hòu | after power-on | initialization phase
+Defaults & Initialization | 复位后 | fùwèi hòu | after reset | defined baseline
+Defaults & Initialization | 初始 | chūshǐ | initial | startup condition
+
+State / Mode / Configuration | 进入 | jìnrù | enter a state or mode | transition trigger
+State / Mode / Configuration | 退出 | tuìchū | exit a state or mode | transition end
+State / Mode / Configuration | 使能 | shǐnéng | enable functionality | activates behavior
+State / Mode / Configuration | 禁止 | jìnzhǐ | disable functionality | suppresses behavior
+State / Mode / Configuration | 保持 | bǎochí | remain in state | no transition
+State / Mode / Configuration | 配置 | pèizhì | configure | setup action
+
+Sequencing & Order | 在…之前 | zài … zhīqián | before | prerequisite ordering
+Sequencing & Order | 在…之后 | zài … zhīhòu | after | postcondition
+Sequencing & Order | 然后 | ránhòu | then | step sequencing
+Sequencing & Order | 再 | zài | then / again | sequential continuation
+Sequencing & Order | 完成后 | wánchéng hòu | after completion | barrier crossed
+
+Causality & Consequence | 导致 | dǎozhì | causes | direct consequence
+Causality & Consequence | 否则 | fǒuzé | otherwise | alternative outcome
+Causality & Consequence | 从而 | cóng’ér | thereby | causal linkage
+Causality & Consequence | 以便 | yǐbiàn | so that | intended outcome
+
+Exceptions & Special Cases | 除非 | chúfēi | unless | exception to rule
+Exceptions & Special Cases | 例外 | lìwài | exception | deviation case
+Exceptions & Special Cases | 特殊情况 | tèshū qíngkuàng | special case | non-general behavior
+
+Warnings / Notes | 注意 | zhùyì | attention required | risk signal
+Warnings / Notes | 警告 | jǐnggào | warning | potential hazard
+Warnings / Notes | 注 | zhù | note | supplemental information
+Warnings / Notes | 提示 | tíshì | hint / reminder | low-severity note
+
+Evaluation & Recommendation | 不推荐 | bú tuījiàn | not recommended | design advice
+Evaluation & Recommendation | 可能 | kěnéng | possible | non-guarantee
+Evaluation & Recommendation | 未定义 | wèi dìngyì | undefined behavior | unsafe to assume
+Evaluation & Recommendation | 不保证 | bú bǎozhèng | not guaranteed | explicit non-commitment
+Evaluation & Recommendation | 反模式 | fǎn móshì | anti-pattern | evaluative signal
+
+Reference & Cross-Linking | 参见 | cānjiàn | see reference | cross-document link
+Reference & Cross-Linking | 如下 | rúxià | as follows | forward reference
+Reference & Cross-Linking | 如上 | rúshàng | as above | backward reference

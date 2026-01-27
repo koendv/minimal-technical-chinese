@@ -1,0 +1,105 @@
+# abstract_technical_core_v1.txt
+# category | hanzi | pinyin | function | note
+# Companion deck to Technical Chinese Grammar Deck (v1)
+# Provides essential nouns/verbs to populate grammatical structures.
+
+Fundamental Quantities | 电压 | diànyā | voltage | primary electrical potential
+Fundamental Quantities | 电流 | diànliú | current | flow of electric charge
+Fundamental Quantities | 功率 | gōnglǜ | power | rate of energy transfer
+Fundamental Quantities | 频率 | pínlǜ | frequency | oscillations per unit time
+Fundamental Quantities | 时间 | shíjiān | time / duration | fundamental dimension
+Fundamental Quantities | 周期 | zhōuqī | period / cycle | duration of one full event
+Fundamental Quantities | 相位 | xiàngwèi | phase | angular position in a cycle
+Fundamental Quantities | 信号 | xìnhào | signal | carries information electrically
+Fundamental Quantities | 电平 | diànpíng | logic / voltage level | discrete voltage state
+Fundamental Quantities | 阻抗 | zǔkàng | impedance | AC resistance (complex)
+Fundamental Quantities | 电容 | diànróng | capacitance | stores charge per voltage
+Fundamental Quantities | 电感 | diǎngǎn | inductance | resists change in current
+Fundamental Quantities | 电阻 | diànzǔ | resistance | opposes DC current
+
+Abstract States & Values | 值 | zhí | value | a numerical quantity
+Abstract States & Values | 数值 | shùzhí | numerical value | a number in context
+Abstract States & Values | 参数 | cānshù | parameter | configurable variable
+Abstract States & Values | 状态 | zhuàngtài | state | current condition of a system
+Abstract States & Values | 模式 | móshì | mode | operational configuration
+Abstract States & Values | 条件 | tiáojiàn | condition | prerequisite or circumstance
+Abstract States & Values | 范围 | fànwéi | range | bounded interval of values
+Abstract States & Values | 极限 | jíxiàn | limit / extreme | ultimate bound
+Abstract States & Values | 阈值 | yùzhí | threshold | tipping point value
+Abstract States & Values | 默认值 | mòrèn zhí | default value | applies if not set
+Abstract States & Values | 初始值 | chūshǐ zhí | initial value | value at startup/reset
+Abstract States & Values | 误差 | wùchā | error / deviation | difference from expected
+Abstract States & Values | 精度 | jīngdù | accuracy / precision | degree of exactness
+Abstract States & Values | 分辨率 | fēnbiàn lǜ | resolution | smallest discernible change
+
+System & Functional Entities | 系统 | xìtǒng | system | integrated whole
+System & Functional Entities | 设备 | shèbèi | device / equipment | physical unit
+System & Functional Entities | 模块 | mókuài | module | self-contained subsystem
+System & Functional Entities | 单元 | dānyuán | unit | basic functional block
+System & Functional Entities | 功能 | gōngnéng | function / functionality | intended purpose
+System & Functional Entities | 接口 | jiēkǒu | interface | boundary for interaction
+System & Functional Entities | 总线 | zǒngxiàn | bus | shared communication pathway
+System & Functional Entities | 通道 | tōngdào | channel | dedicated path for data/flow
+System & Functional Entities | 路径 | lùjìng | path | route of execution or data
+System & Functional Entities | 流程 | liúchéng | process / flow | sequence of operations
+System & Functional Entities | 序列 | xùliè | sequence | ordered list of items
+
+Logic & Events | 事件 | shìjiàn | event | something that happens
+Logic & Events | 操作 | cāozuò | operation | an action performed
+Logic & Events | 过程 | guòchéng | process | series of actions for a result
+Logic & Events | 步骤 | bùzhòu | step | discrete action in a sequence
+Logic & Events | 结果 | jiéguǒ | result | outcome of an action/process
+Logic & Events | 响应 | xiǎngyìng | response | output triggered by an input/event
+Logic & Events | 请求 | qǐngqiú | request | demand for service/action
+Logic & Events | 中断 | zhōngduàn | interrupt | signal to suspend normal flow
+Logic & Events | 标志 | biāozhì | flag / marker | boolean indicator of status
+
+Core Actions - Control | 设置 | shèzhì | to set / configure | assign a value or state
+Core Actions - Control | 启动 | qǐdòng | to start / boot | begin operation
+Core Actions - Control | 停止 | tíngzhǐ | to stop | cease operation
+Core Actions - Control | 触发 | chùfā | to trigger | initiate an action/event
+Core Actions - Control | 复位 | fùwèi | to reset | return to initial state
+
+Core Actions - Data | 读取 | dúqǔ | to read | retrieve data from a source
+Core Actions - Data | 写入 | xiěrù | to write | store data to a destination
+Core Actions - Data | 存储 | cúnchǔ | to store | place into memory for retention
+Core Actions - Data | 加载 | jiāzài | to load | copy data into active workspace
+Core Actions - Data | 发送 | fāsòng | to send / transmit | dispatch data to a target
+Core Actions - Data | 接收 | jiēshōu | to receive | accept data from a source
+Core Actions - Data | 处理 | chǔlǐ | to process | perform operations on data
+Core Actions - Data | 计算 | jìsuàn | to calculate | compute a mathematical result
+Core Actions - Data | 比较 | bǐjiào | to compare | evaluate similarity/difference
+
+Core Actions - State Change | 增加 | zēngjiā | to increase | make larger/numerically greater
+Core Actions - State Change | 减少 | jiǎnshǎo | to decrease | make smaller/numerically lesser
+Core Actions - State Change | 改变 | gǎibiàn | to change | alter from one state to another
+Core Actions - State Change | 切换 | qiēhuàn | to switch | change between discrete states/modes
+Core Actions - State Change | 稳定 | wěndìng | to stabilize / stable | reach/maintain steady state
+
+Core Actions - Detection | 检测 | jiǎncè | to detect / check | discover the presence of
+Core Actions - Detection | 测量 | cèliáng | to measure | determine a quantitative value
+Core Actions - Detection | 监控 | jiānkòng | to monitor | observe for changes over time
+Core Actions - Detection | 判断 | pànduàn | to judge / determine | reach a conclusion from data
+Core Actions - Detection | 验证 | yànzhèng | to verify | confirm truth or correctness
+Core Actions - Detection | 确认 | quèrèn | to confirm | give formal assurance of
+
+Relational Terms | 相关 | xiāngguān | related (to) | having a connection with
+Relational Terms | 对应 | duìyìng | corresponding (to) | matching in position/function
+Relational Terms | 依赖 | yīlài | dependent (on) | requiring for normal function
+Relational Terms | 基于 | jīyú | based (on) | using as a foundation
+Relational Terms | 通过 | tōngguò | via / by means of | using as a method or channel
+Relational Terms | 根据 | gēnjù | according to | in conformity with
+Relational Terms | 关于 | guānyú | regarding / about | on the subject of
+
+Descriptive Terms | 有效 | yǒuxiào | valid / effective | having intended force or result
+Descriptive Terms | 无效 | wúxiào | invalid | not having intended force
+Descriptive Terms | 可用 | kěyòng | available | ready for use
+Descriptive Terms | 不可用 | bù kěyòng | unavailable | not ready for use
+Descriptive Terms | 正常 | zhèngcháng | normal | conforming to standard
+Descriptive Terms | 异常 | yìcháng | abnormal | deviating from standard
+Descriptive Terms | 高 | gāo | high | upper region of a scale
+Descriptive Terms | 低 | dī | low | lower region of a scale
+Descriptive Terms | 内部 | nèibù | internal | located or occurring inside
+Descriptive Terms | 外部 | wàibù | external | located or occurring outside
+Descriptive Terms | 相对 | xiāngduì | relative | considered in relation to something else
+Descriptive Terms | 绝对 | juéduì | absolute | considered without relation to anything else

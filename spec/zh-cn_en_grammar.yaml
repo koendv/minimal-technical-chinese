@@ -1,0 +1,150 @@
+deck:
+  name: "Technical Chinese Datasheet Reading Deck"
+  version: "v1"
+  scope:
+    - semiconductor datasheets
+    - reference manuals
+    - application notes
+    - technical standards (IEC / GB / ISO)
+  non_goals:
+    - HSK progression
+    - conversational fluency
+    - literary Chinese
+    - academic theory
+    - pronunciation mastery
+
+design_principles:
+  - operator_over_vocabulary
+  - abstraction_over_specificity
+  - cognitive_load_discipline
+  - real_document_validation
+  - finite_grammar_assumption
+
+cognitive_load:
+  max_microdeck_size: 15
+  preferred_microdeck_size: 5-12
+  allow_partial_completion: true
+  avoid_backlog_pressure: true
+
+card_inclusion_rules:
+  R1_high_leverage:
+    description: >
+      Include terms that materially affect interpretation of
+      conditions, guarantees, scope, or legality.
+    include_if:
+      - affects_normative_meaning
+      - affects_applicability
+      - affects_safety_or_correctness
+
+  R2_operator_priority:
+    description: >
+      Prefer grammatical operators, modality markers, and discourse signals
+      over concrete nouns.
+    prefer:
+      - conditionals
+      - modality
+      - sequencing
+      - scope_limiters
+      - state_transitions
+
+  R3_abstraction_bias:
+    description: >
+      Prefer the highest abstraction level that preserves meaning.
+    examples:
+      include: "传感器"
+      exclude: "霍尔传感器"
+
+  R4_specialized_term_handling:
+    description: >
+      Long or specialized terms are excluded unless they meet an exception.
+    default: exclude
+    exceptions:
+      - catastrophic_misread_risk
+      - evaluative_signal
+      - frequent_cross_document_usage
+    decomposition_rule:
+      if_excluded:
+        analyze_components: true
+        include_components_if_high_leverage: true
+
+  R5_academic_language_exclusion:
+    description: >
+      Exclude terms primarily used in academic or theoretical discourse.
+    exclude_if:
+      - university_only
+      - low_presence_in_industry_docs
+
+  R6_translation_independence:
+    description: >
+      Cards define functional meaning, not English equivalence.
+    allow_vague_translation: true
+    focus_on:
+      - function
+      - effect_on_reading
+
+  R7_machine_translation_awareness:
+    description: >
+      Include terms that are frequently mistranslated or softened by MT.
+    include_if:
+      - MT_flattens_modality
+      - MT_loses_scope
+      - MT_softens_non_guarantees
+
+category_rules:
+  - Conditions_and_Scope
+  - Mandatory_Prohibited_Optional
+  - Limits_and_Thresholds
+  - Defaults_and_Initialization
+  - State_Mode_Configuration
+  - Sequencing_and_Order
+  - Causality_and_Consequence
+  - Exceptions_and_Special_Cases
+  - Warnings_and_Notes
+  - Evaluation_and_Recommendation
+  - Reference_and_Cross_Linking
+
+card_structure:
+  fields:
+    - category
+    - hanzi
+    - pinyin
+    - function
+    - note
+  forbidden_fields:
+    - mnemonic
+    - long_examples
+    - academic_definitions
+
+deck_lifecycle:
+  generation:
+    source_of_truth: single_text_file
+    conversion: scripted
+  validation:
+    required_against:
+      - real_datasheets
+      - reference_manuals
+    optional_against:
+      - technical_standards
+  expansion_policy:
+    default: frozen
+    allow_addition_only_if:
+      - repeated_real_world_failure
+      - cross_document_recurrence
+  pruning_policy:
+    aggressive: true
+    remove_if:
+      - low_leverage
+      - redundant
+      - rarely_encountered
+
+electronics_vocabulary_policy:
+  separate_deck: true
+  integration_with_grammar_deck: forbidden
+  include_only:
+    - cross_peripheral_verbs
+    - generic_entities
+    - state_descriptors
+  exclude:
+    - device_specific_terms
+    - vendor_names
+    - academic_electronics_terms
