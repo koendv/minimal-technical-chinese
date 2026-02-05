@@ -17,42 +17,42 @@ Fundamental Quantities | 电容 | diànróng | capacitance | stores charge per v
 Fundamental Quantities | 电感 | diǎngǎn | inductance | resists change in current
 Fundamental Quantities | 电阻 | diànzǔ | resistance | opposes DC current
 
-Abstract States & Values | 值 | zhí | value | a numerical quantity
-Abstract States & Values | 数值 | shùzhí | numerical value | a number in context
-Abstract States & Values | 参数 | cānshù | parameter | configurable variable
-Abstract States & Values | 状态 | zhuàngtài | state | current condition of a system
-Abstract States & Values | 模式 | móshì | mode | operational configuration
-Abstract States & Values | 条件 | tiáojiàn | condition | prerequisite or circumstance
-Abstract States & Values | 范围 | fànwéi | range | bounded interval of values
-Abstract States & Values | 极限 | jíxiàn | limit / extreme | ultimate bound
-Abstract States & Values | 阈值 | yùzhí | threshold | tipping point value
-Abstract States & Values | 默认值 | mòrèn zhí | default value | applies if not set
-Abstract States & Values | 初始值 | chūshǐ zhí | initial value | value at startup/reset
-Abstract States & Values | 误差 | wùchā | error / deviation | difference from expected
-Abstract States & Values | 精度 | jīngdù | accuracy / precision | degree of exactness
-Abstract States & Values | 分辨率 | fēnbiàn lǜ | resolution | smallest discernible change
+Abstract States and Values | 值 | zhí | value | a numerical quantity
+Abstract States and Values | 数值 | shùzhí | numerical value | a number in context
+Abstract States and Values | 参数 | cānshù | parameter | configurable variable
+Abstract States and Values | 状态 | zhuàngtài | state | current condition of a system
+Abstract States and Values | 模式 | móshì | mode | operational configuration
+Abstract States and Values | 条件 | tiáojiàn | condition | prerequisite or circumstance
+Abstract States and Values | 范围 | fànwéi | range | bounded interval of values
+Abstract States and Values | 极限 | jíxiàn | limit / extreme | ultimate bound
+Abstract States and Values | 阈值 | yùzhí | threshold | tipping point value
+Abstract States and Values | 默认值 | mòrèn zhí | default value | applies if not set
+Abstract States and Values | 初始值 | chūshǐ zhí | initial value | value at startup/reset
+Abstract States and Values | 误差 | wùchā | error / deviation | difference from expected
+Abstract States and Values | 精度 | jīngdù | accuracy / precision | degree of exactness
+Abstract States and Values | 分辨率 | fēnbiàn lǜ | resolution | smallest discernible change
 
-System & Functional Entities | 系统 | xìtǒng | system | integrated whole
-System & Functional Entities | 设备 | shèbèi | device / equipment | physical unit
-System & Functional Entities | 模块 | mókuài | module | self-contained subsystem
-System & Functional Entities | 单元 | dānyuán | unit | basic functional block
-System & Functional Entities | 功能 | gōngnéng | function / functionality | intended purpose
-System & Functional Entities | 接口 | jiēkǒu | interface | boundary for interaction
-System & Functional Entities | 总线 | zǒngxiàn | bus | shared communication pathway
-System & Functional Entities | 通道 | tōngdào | channel | dedicated path for data/flow
-System & Functional Entities | 路径 | lùjìng | path | route of execution or data
-System & Functional Entities | 流程 | liúchéng | process / flow | sequence of operations
-System & Functional Entities | 序列 | xùliè | sequence | ordered list of items
+System and Functional Entities | 系统 | xìtǒng | system | integrated whole
+System and Functional Entities | 设备 | shèbèi | device / equipment | physical unit
+System and Functional Entities | 模块 | mókuài | module | self-contained subsystem
+System and Functional Entities | 单元 | dānyuán | unit | basic functional block
+System and Functional Entities | 功能 | gōngnéng | function / functionality | intended purpose
+System and Functional Entities | 接口 | jiēkǒu | interface | boundary for interaction
+System and Functional Entities | 总线 | zǒngxiàn | bus | shared communication pathway
+System and Functional Entities | 通道 | tōngdào | channel | dedicated path for data/flow
+System and Functional Entities | 路径 | lùjìng | path | route of execution or data
+System and Functional Entities | 流程 | liúchéng | process / flow | sequence of operations
+System and Functional Entities | 序列 | xùliè | sequence | ordered list of items
 
-Logic & Events | 事件 | shìjiàn | event | something that happens
-Logic & Events | 操作 | cāozuò | operation | an action performed
-Logic & Events | 过程 | guòchéng | process | series of actions for a result
-Logic & Events | 步骤 | bùzhòu | step | discrete action in a sequence
-Logic & Events | 结果 | jiéguǒ | result | outcome of an action/process
-Logic & Events | 响应 | xiǎngyìng | response | output triggered by an input/event
-Logic & Events | 请求 | qǐngqiú | request | demand for service/action
-Logic & Events | 中断 | zhōngduàn | interrupt | signal to suspend normal flow
-Logic & Events | 标志 | biāozhì | flag / marker | boolean indicator of status
+Logic and Events | 事件 | shìjiàn | event | something that happens
+Logic and Events | 操作 | cāozuò | operation | an action performed
+Logic and Events | 过程 | guòchéng | process | series of actions for a result
+Logic and Events | 步骤 | bùzhòu | step | discrete action in a sequence
+Logic and Events | 结果 | jiéguǒ | result | outcome of an action/process
+Logic and Events | 响应 | xiǎngyìng | response | output triggered by an input/event
+Logic and Events | 请求 | qǐngqiú | request | demand for service/action
+Logic and Events | 中断 | zhōngduàn | interrupt | signal to suspend normal flow
+Logic and Events | 标志 | biāozhì | flag / marker | boolean indicator of status
 
 Core Actions - Control | 设置 | shèzhì | to set / configure | assign a value or state
 Core Actions - Control | 启动 | qǐdòng | to start / boot | begin operation
