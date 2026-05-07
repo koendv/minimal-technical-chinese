@@ -61,3 +61,8 @@ The card structure could be inverted to create a deck of English terms with mean
 Contributions welcome.
 
 *For those of us who build crystal palaces of silicon*
+
+## See also
+
+- [HackMD](https://hackmd.io/@SeanPeng/B1psY1s6K)
+- [Quizlet](https://quizlet.com/558492150)
